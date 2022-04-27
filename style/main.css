@@ -598,6 +598,24 @@ body::-webkit-scrollbar-track {
   .music_control {
     width: 95%;
   }
+  .name_band {
+    overflow: hidden;
+  }
+  .tuongtac {
+    display: none;
+  }
+  .icon_control {
+    flex-wrap: wrap;
+  }
+  .next_back {
+    width: 100%;
+    justify-content: center;
+  }
+  .wrap_range_time {
+    width: 74%;
+    justify-content: center;
+    font-size: 10px;
+  }
 }
 @media (max-width: 400px) {
   .header_playlist ul {
