@@ -616,12 +616,26 @@ body::-webkit-scrollbar-track {
     justify-content: center;
     font-size: 10px;
   }
-}
-@media (max-width: 400px) {
   .header_playlist ul {
     font-size: 8px;
   }
   .p-res {
     font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .p-res {
+    display: none;
+  }
+  .wrap_icon_control {
+    display: flex;
+    font-size: 10px;
+  }
+  .input_conten {
+    height: 28px;
+    padding: 0 25px;
+  }
+  .infor.active {
+    width: 84%;
   }
 }
