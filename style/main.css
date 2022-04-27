@@ -458,6 +458,9 @@ i {
   z-index: 99999;
   height: 100%;
 }
+.colorActive {
+  color: red;
+}
 .menu.active {
   left: 0;
 }

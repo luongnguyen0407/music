@@ -199,7 +199,7 @@ window.addEventListener("load", () => {
   function shuffleSong() {
     if (isShuffle == false) {
       isShuffle = true;
-      shuffle.style.color = "yellow";
+      shuffle.style.color = "";
       chageSong(3);
     } else {
       isShuffle = false;
@@ -210,8 +210,8 @@ window.addEventListener("load", () => {
   var isRepeat = false;
   let playRepeat = $(".loop");
   playRepeat.addEventListener("click", () => {
-    if (playRepeat.style.color != "yellow") {
-      playRepeat.style.color = "yellow";
+    if (playRepeat.style.color != "red") {
+      playRepeat.style.color = "red";
       isRepeat = true;
     } else {
       playRepeat.style.color = "#676669";
@@ -290,6 +290,10 @@ window.addEventListener("load", () => {
   });
   rangerVolume.addEventListener("change", (e) => {
     song.volume = parseInt(e.target.value) / 100;
-    console.log(song.volume);
+  });
+  // tym
+  const heart = $(".heart");
+  heart.addEventListener("click", () => {
+    heart.classList.toggle("colorActive");
   });
 });
