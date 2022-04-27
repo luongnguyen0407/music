@@ -272,4 +272,24 @@ window.addEventListener("load", () => {
         break;
     }
   });
+  // chage volume
+  const rangerVolume = $(".range_volum");
+  let defaultVolume = rangerVolume.volume;
+  const iconVolume = $(".ic-volume");
+  iconVolume.addEventListener("click", () => {
+    if (iconVolume.style.color != "red") {
+      iconVolume.style.color = "red";
+      rangerVolume.value = 0;
+      song.volume = 0;
+    } else {
+      iconVolume.style.color = "#676669";
+      rangerVolume.value = defaultVolume;
+      song.volume = parseInt(rangerVolume.value) / 100;
+      isRepeat = false;
+    }
+  });
+  rangerVolume.addEventListener("change", (e) => {
+    song.volume = parseInt(e.target.value) / 100;
+    console.log(song.volume);
+  });
 });
