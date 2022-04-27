@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="app">
+            <div class="wrap_app">
+                <div class="menu">
+                    <div class="apple">
+                        <!-- <button></button>
+                        <button></button>
+                        <button></button> -->
+                        <input class="light_dark" type="checkbox">
+                        <i class="ti-menu" style="float: right; color: rgb(52, 52, 53);"></i>
+                    </div>
+                    <div class="name_app">
+                        <i class="ti-music-alt"></i>
+                        <p style="color: orange;">Bee</p>
+                        <p style="font-weight: bold;">Music</p>
+                    </div>
+                    <ul>
+                        <li class="animate-1"><i class="ti-home"></i>Home</li>
+                        <li class="animate-1"><i class="ti-stats-up"></i>Trends</li>
+                        <li class="animate-1"><i class="ti-stack-overflow"></i>Feeds</li>
+                    </ul>
+                    <span>Discover</span>
+                    <ul>
+                        <li class="animate-1"><i class="ti-view-grid"></i>New and Noteble</li>
+                        <li class="animate-1"><i class="ti-calendar"></i>Release Calendar</li>
+                        <li class="animate-1"><i class="ti-wand"></i>Event</li>
+                    </ul>
+                    <span>Your Collection</span>
+                    <ul>
+                        <li class="animate-1"><i class="ti-heart"></i>Favorite Songs</li>
+                        <li class="animate-1"><i class="ti-user"></i>Artis</li>
+                        <li class="animate-1"><i class="ti-star"></i>Album</li>
+                        <li><img class="avatar" src="./style/img/avatar.jpg" alt="">Luong Nguyen</li>
+
+                    </ul>
+                </div>
+                <div class="conten">
+                    <div class="canle">
+                        <div class="conten_header">
+                            <i class="ti-menu rs-menu"></i>
+                            <div class="wrap_icon_control">
+                                <i class="ti-arrow-left"></i>
+                                <i class="ti-arrow-right"></i>
+                            </div>
+                            <div class="wrap_input_conten">
+                                <input class="input_conten" placeholder="Search for artist, songs....." type="text">
+                                <i class="ti-search"></i>
+                            </div>
+                            <i class="ti-menu rs-infor"></i>
+                        </div>
+                        <div class="wrap_trending">
+                            <span style="font-size: 13px; color: rgb(177, 173, 173);">What's hot </span><i
+                                class="ti-bar-chart" style="color: red;"></i>
+                            <div class="kbietdattengi">
+                                <h2 style="padding-left: 10px;">Trending</h2>
+                                <a href="#" style="font-size: 13px; color:rgb(177, 173, 173) ;">More ></a>
+                            </div>
+
+                        </div>
+                        <div class="wrap_img_conten">
+                            <div class="canle2">
+                                <p style="font-size: 13px ; color: rgb(141, 140, 140);">Artis</p>
+                                <p style="font-size: 25px; font-weight: 600;padding: 20px 0;">On Top <br>Of the word</p>
+                                <span>
+                                    <button style="background-color: black; color: white;">Play</button>
+                                    <button>Flow</button>
+                                </span>
+                                <div style="float: right; color: rgb(216, 214, 214); font-size: 12px;" class="linhtinh">
+                                    <p class="p-res">Monthly listeners <br>
+                                        50.000</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="play_myplaylist">
+                            <h3>My Playlist</h3>
+                            <span class="show_all">Show all </span>
+                        </div>
+                        <div class="header_playlist">
+                            <ul>
+                                <li class='stt2'>#</li>
+                                <li class="name_music">TITLE</li>
+                                <li class='name_band'>ARTIST</li>
+                                <li class='time'>TIME</li>
+                                <li class="album_music">ALBUM</li>
+                            </ul>
+                            <div class="wrap_music">
+
+
+                            </div>
+                        </div>
+                        <div class="music_control">
+                            <div class="border-music"></div>
+                            <div class="icon_control">
+                                <span class="tuongtac">
+                                    <i class="ti-heart"></i>
+                                    <i class="ti-music"></i>
+                                    <i class="ti-arrows-corner"></i>
+                                </span>
+                                <span class="next_back">
+                                    <i class="ti-back-right loop"></i>
+                                    <i class="ti-control-skip-backward"></i>
+                                    <div class="wrap_btn_play"><i class="far fa-play-circle pause_play"></i></div>
+                                    <i class="ti-control-forward"></i>
+                                    <i class="ti-control-shuffle shuffle"></i>
+                                </span>
+                                <span class="volum">
+                                    <i class="ti-volume"></i>
+                                    <input class="range_volum" type="range">
+                                </span>
+                            </div>
+                            <div class="wrap_range_time">
+                                <div class="dachay">2:11</div>
+                                <input type="range" name="range" class="range_time">
+                                <audio src="music/Ghé Qua.mp3" id="song"></audio>
+
+                                <div class="conlai">-4:05</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="infor">
+                    <div class="wrap_flt">
+                        <div class="infor_header">
+                            <h3>Shortcuts</h3>
+                            <div class="cap1">
+                                <span class="wrap_lt">
+                                    <p>Chill</p>
+                                    <img src="style/img/snow.png" alt="">
+                                </span>
+                                <span class="wrap_lt">
+                                    <p>Hot</p>
+                                    <img src="style/img/star.png" alt="">
+                                </span>
+                            </div>
+                            <div class="cap2">
+                                <span class="wrap_lt">
+                                    <p>Piano instrumental</p>
+                                    <img src="style/img/piano.png" alt="">
+                                </span>
+                                <span class="wrap_lt">
+                                    <p>Jazz</p>
+                                    <img src="style/img/jazz.png" alt="">
+                                </span>
+                            </div>
+                            <span class="wrap_lt" style="width:85px">
+                                <p>Acoustic</p>
+                                <img src="style/img/ghitar.png " alt="">
+                            </span>
+
+                        </div>
+                        <div class="infor_album">
+                            <h3>Favorite Artists</h3>
+                            <div class="singer">
+                                <img src="style/img/TaynguyenSound-logo.jpg" alt="">
+                                <span>
+                                    <p class="singer_name">
+                                        TayNguyenSound
+                                    </p>
+                                    <p class="p2">6 songs in library</p>
+                                </span>
+                                <i class="ti-more-alt"></i>
+                            </div>
+                            <div class="singer">
+                                <img src="style/img/TaynguyenSound-logo.jpg" alt="">
+                                <span>
+                                    <p class="singer_name">
+                                        BCTM x TNS
+                                    </p>
+                                    <p class="p2">6 songs in library</p>
+                                </span>
+                                <i class="ti-more-alt"></i>
+                            </div>
+                            <div class="wrap_img_singer">
+                                <div class="wrap_img">
+                                    <img class="img_music" src="style/img/tl1.jpg" alt="">
+                                </div>
+                                <span class="infor2">
+                                    <div>
+                                        <h3 class="nameSong">Look What You Made Me Do</h3>
+                                        <p class="nameSinger">Taylor Swift</p>
+                                    </div>
+                                    <i class="ti-control-play"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="style/main.js"></script>
+</body>
+
+</html>
