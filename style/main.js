@@ -184,7 +184,7 @@ window.addEventListener("load", () => {
       addIcon();
       play_pause.innerHTML = `<i class="far fa-pause-circle pause_play"></i>`;
       isPlaying = false;
-      setTimer = setInterval(displayTime, 500);
+      setTimer = setInterval(displayTime, 200);
     } else {
       song.pause();
       play_pause.innerHTML = `<i class="far fa-play-circle pause_play"></i>`;
